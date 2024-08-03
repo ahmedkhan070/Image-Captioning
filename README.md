@@ -1,8 +1,6 @@
 # Image-Captioning
 Used CNN ( DenseNet201 ) and LSTM to make text of images
 
-Here's the updated README file with the reference to the "Show and Tell: A Neural Image Caption Generator" paper and mentioning the use of DenseNet201:
-
 ```markdown
 # Flickr8k Image Captioning using CNNs and LSTMs
 
@@ -58,6 +56,7 @@ The model consists of two main parts:
 - **CNN Encoder**: This part uses a pre-trained DenseNet201 to extract features from images.
 - **LSTM Decoder**: This part uses LSTM networks to generate captions based on the image features extracted by the CNN.
 
+## Reference
 The approach used in this project is inspired by the "Show and Tell: A Neural Image Caption Generator" paper. You can refer to the paper [here](https://arxiv.org/pdf/1411.4555.pdf) for more details on the encoder-decoder architecture.
 
 ## Results
